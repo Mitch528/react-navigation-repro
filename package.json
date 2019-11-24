@@ -1,0 +1,43 @@
+{
+  "name": "ReactNavigationBottomTabRepro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios  --simulator=\"iPhone 11 Pro Max\"",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.5",
+    "@react-navigation/bottom-tabs": "^5.0.0-alpha.22",
+    "@react-navigation/core": "^5.0.0-alpha.24",
+    "@react-navigation/native": "^5.0.0-alpha.16",
+    "@react-navigation/native-stack": "^5.0.0-alpha.14",
+    "@react-navigation/stack": "^5.0.0-alpha.37",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-gesture-handler": "^1.5.1",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-safe-area-context": "^0.6.1",
+    "react-native-screens": "^2.0.0-alpha.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "@types/node": "^12.12.12",
+    "@types/react": "^16.9.13",
+    "@types/react-native": "^0.60.23",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.7.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "react-native-typescript-transformer": "^1.2.13",
+    "react-test-renderer": "16.9.0",
+    "typescript": "^3.7.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

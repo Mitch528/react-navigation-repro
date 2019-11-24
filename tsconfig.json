@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "jsx": "react-native",
+    "lib": [
+      "es2017"
+    ],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "target": "es2017"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
